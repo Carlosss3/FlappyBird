@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\jumpScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GameControl.cs" Line="9" Column="26" />
+      <File FileName="Assets\Scripts\inmortalScript.cs" Line="11" Column="46" />
+      <File FileName="Assets\Scripts\CoinScript.cs" Line="6" Column="29" />
+      <File FileName="Assets\Scripts\jumpScript.cs" Line="61" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

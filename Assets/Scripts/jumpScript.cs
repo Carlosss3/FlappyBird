@@ -10,11 +10,14 @@ public class jumpScript : MonoBehaviour {
 	public bool jump = false;
 	public bool inmortal = false;
 
+	SpriteRenderer spr;
+	Animator anim;
 	// Use this for initialization
 
-	Animator anim;
+
 	void Start () {
 		anim = GetComponent<Animator>();
+		spr = GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
@@ -22,6 +25,13 @@ public class jumpScript : MonoBehaviour {
 		if(Input.GetButtonDown("Jump") && !GameControl.dead){
 			jump = true;
 			anim.SetBool("jump",true);
+		}
+
+		if(GameControl.inmortal){
+			gameObject.collider2D.isTrigger = true;
+		
+		}else{
+			gameObject.collider2D.isTrigger = false;
 		}
 
 	}
@@ -36,6 +46,19 @@ public class jumpScript : MonoBehaviour {
 			jump = false;
 			anim.SetBool("jump",false);
 
+		}
+
+		if(GameControl.inmortal){
+
+
+			spr.color=new Color(1f,1f,1f,0.5f);
+			anim.enabled = false;
+		}
+
+		if(GameControl.inmortal && Time.time > GameControl.inmortalTime){
+			GameControl.inmortal = false;
+			anim.enabled = true;
+			spr.color=new Color(1f,1f,1f,1f);
 		}
 
 
