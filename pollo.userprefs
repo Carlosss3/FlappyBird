@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\spawnScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\spawnScript.cs" Line="14" Column="33" />
+      <File FileName="Assets\Scripts\levelUpScript.cs" Line="18" Column="38" />
+      <File FileName="Assets\Scripts\jumpScript.cs" Line="40" Column="8" />
+      <File FileName="Assets\Scripts\ScrollScript.cs" Line="32" Column="11" />
+      <File FileName="Assets\Scripts\ScrollInifiteScript.cs" Line="72" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
